@@ -48,26 +48,27 @@
 
     DHT11 Sensor to Arduino:
 
-        Connect the VCC pin of the DHT11 to 5V on the Arduino.
-        Connect the GND pin of the DHT11 to GND on the Arduino.
-        Connect the Data pin of the DHT11 to D2 on the Arduino.
+        VCC → 5V
+        GND → GND
+        DATA → D7
 
     L298N Motor Driver to Arduino:
 
-        Connect IN1 on the L298N to D3 on the Arduino.
-        Connect IN2 on the L298N to D4 on the Arduino.
-        Connect the GND of the L298N to GND on the Arduino.
-        Connect the 5V pin of the L298N to 5V on the Arduino.
+        IN1 → D11
+        IN2 → D10
+        ENA (Enable A - PWM) → D9
+        GND → GND
+        5V (from L298N) → 5V
 
     DC Motor to L298N:
 
-        Connect one wire of the DC motor to OUT1 on the L298N.
-        Connect the other wire of the DC motor to OUT2 on the L298N.
+        Motor Terminal 1 → OUT1
+        Motor Terminal 2 → OUT2
 
     Power Connections:
 
-        Connect the positive (+) terminal of the 9V battery to the 12V input on the L298N.
-        Connect the negative (-) terminal of the 9V battery to GND (common ground with the Arduino and L298N).
+        9V Battery (+) → L298N (12V Input)
+        9V Battery (-) → Common Ground (Arduino & L298N)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 💡 Functionality Summary:
 

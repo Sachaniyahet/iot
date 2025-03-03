@@ -1,0 +1,20 @@
+Connections:
+
+    DHT11 Sensor to Arduino
+        VCC → 5V
+        GND → GND
+        Data → D2
+
+    L298N Motor Driver to Arduino
+        IN1 → D3
+        IN2 → D4
+        GND → GND
+        5V → 5V
+
+    DC Motor to L298N
+        Motor Wire 1 → OUT1
+        Motor Wire 2 → OUT2
+
+    Power (9V Battery)
+        (+) to L298N 12V input
+        (-) to GND (common ground with Arduino)

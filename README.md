@@ -1,4 +1,4 @@
-# iot
+# temperature-controlled fan
 This Project Is Built Upon IOT Concept!.
 # Components:
 1. Arduino UNO (Blue Board on the Right)

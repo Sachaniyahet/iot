@@ -15,6 +15,20 @@ If the temperature is below 30°C, the fan turns off.
 
 The fan provides cooling when needed.
 
+🛠️ Components Required
+
+Arduino UNO (Microcontroller)
+
+DHT11 Temperature & Humidity Sensor
+
+L298N Motor Driver Module
+
+DC Motor + Fan Blade
+
+9V Battery + Battery Clip
+
+Jumper Wires
+
 🎯 Applications
 
 Smart cooling systems

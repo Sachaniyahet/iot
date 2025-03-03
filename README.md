@@ -1,6 +1,6 @@
 # iot
 This Project Is Built Upon IOT Concept!.
-#Components:
+# Components:
 1. Arduino UNO (Blue Board on the Right)
 
     A microcontroller board based on the ATmega328P.
